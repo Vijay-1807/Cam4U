@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+*.iml
+.idea/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+node_modules/
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Outputs
+outputs/detections_output/*.jpg
+outputs/detections_output/*.mp4
+!outputs/detections_output/.gitkeep
+
+# Models (large files)
+*.pt
+*.pth
+*.onnx
+*.pb
+!models/.gitkeep
+
+# Data (large datasets)
+data/UCF_and_Shanghai/**/*.npy
+data/UCF_and_Shanghai/**/*.pkl
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Temporary
+*.tmp
+*.temp
+

@@ -1,0 +1,113 @@
+.hero {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heroText {
+  font-size: clamp(3rem, 8vw, 8rem);
+  font-weight: 800;
+  margin: 0;
+  line-height: 1;
+  color: white;
+}
+
+.heroDescription {
+  font-size: clamp(1rem, 3vw, 2rem);
+  font-weight: 400;
+  margin-top: 16px;
+  color: #9ca3af;
+}
+
+.listContainer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 48px;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.listText {
+  font-size: clamp(2.5rem, 6vw, 6rem);
+  font-weight: 600;
+  position: sticky;
+  top: 50%;
+  transform: translateY(-50%);
+  align-self: flex-start;
+  min-width: max-content;
+  color: white;
+}
+
+.list {
+  font-size: clamp(2.5rem, 6vw, 6rem);
+  font-weight: 600;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  line-height: 1.25;
+  color: white;
+  transition: color 0.3s;
+}
+
+/* Fallback for browsers not supporting animation-timeline */
+.list li {
+  opacity: 0.5;
+}
+
+/* Text Effect Logic using scope for view timeline */
+@property --i {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: true;
+}
+
+.listLi {
+  scroll-snap-align: center;
+  color: white;
+}
+
+@supports (animation-timeline: view()) {
+  .listLi {
+    opacity: 0.2;
+    animation-name: brighten;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-timeline: view();
+    animation-range: cover calc(50% - 1lh) calc(50% + 1lh);
+  }
+}
+
+@keyframes brighten {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+@media (max-width: 600px) {
+  .listContainer {
+    column-gap: 16px;
+    align-items: flex-start;
+  }
+
+  .listText {
+    font-size: clamp(1.5rem, 7vw, 2.5rem);
+  }
+
+  .list {
+    font-size: clamp(1.5rem, 7vw, 2.5rem);
+  }
+}

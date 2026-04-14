@@ -1,0 +1,52 @@
+{
+  "placeholderImages": [
+    {
+      "id": "login-bg",
+      "description": "Abstract security camera grid",
+      "imageUrl": "https://images.unsplash.com/photo-1562575214-da9fcf59b907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzY3MzMyMTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract technology"
+    },
+    {
+      "id": "feed-1",
+      "description": "Office entrance video feed",
+      "imageUrl": "https://images.unsplash.com/photo-1748261232531-6a7b6877d916?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8b2ZmaWNlJTIwZW50cmFuY2V8ZW58MHx8fHwxNzY3MzY0OTIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office entrance"
+    },
+    {
+      "id": "feed-2",
+      "description": "Parking lot video feed",
+      "imageUrl": "https://images.unsplash.com/photo-1470224114660-3f6686c562eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwYXJraW5nJTIwbG90fGVufDB8fHx8MTc2NzMzMzAzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parking lot"
+    },
+    {
+      "id": "feed-3",
+      "description": "Lobby video feed",
+      "imageUrl": "https://images.unsplash.com/photo-1677129667171-92abd8740fa3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBsb2JieXxlbnwwfHx8fDE3NjczNjQ5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern lobby"
+    },
+    {
+      "id": "feed-4",
+      "description": "Rooftop video feed",
+      "imageUrl": "https://images.unsplash.com/photo-1487529200833-5dcd537f115b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaXR5JTIwcm9vZnRvcHxlbnwwfHx8fDE3Njc0MzYwMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city rooftop"
+    },
+    {
+      "id": "event-1",
+      "description": "Event thumbnail for person detected",
+      "imageUrl": "https://images.unsplash.com/photo-1592903204858-e288251ad9cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjB3YWxraW5nfGVufDB8fHx8MTc2NzQzNjAxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person walking"
+    },
+    {
+      "id": "event-2",
+      "description": "Event thumbnail for vehicle detected",
+      "imageUrl": "https://images.unsplash.com/photo-1671879504770-a55834bc064b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXIlMjBtb3Zpbmd8ZW58MHx8fHwxNzY3NDM2MDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "car moving"
+    },
+    {
+      "id": "event-3",
+      "description": "Event thumbnail for package delivery",
+      "imageUrl": "https://images.unsplash.com/photo-1767114648562-399d88d7362d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZWxpdmVyeSUyMHBlcnNvbnxlbnwwfHx8fDE3NjczNjQ2MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "delivery person"
+    }
+  ]
+}
